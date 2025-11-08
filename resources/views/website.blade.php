@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href={{ asset('logo.webp') }}>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
@@ -40,11 +41,17 @@
             }
         }
     </script>
-    <link
+
+    <link rel="preload"
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&family=Manrope:wght@400;600;700;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" href={{ asset('logo.jpg') }}>
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&family=Manrope:wght@400;600;700;800&display=swap">
+    </noscript>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        media="print" onload="this.media='all'">
     <style>
         * {
             font-family: 'Inter', sans-serif;
@@ -411,7 +418,7 @@
         <i class="fas fa-arrow-up text-xl"></i>
     </button>
 
-    <script>
+    <script defer>
         // Dark Mode Toggle
         const darkToggle = document.getElementById('darkToggle');
         const html = document.documentElement;
@@ -447,7 +454,7 @@
         function updateTranslations() {
             document.querySelectorAll('[data-en]').forEach(el => {
                 const text = el.getAttribute(`data-${currentLang}`);
-                if (text) el.textContent = text;
+                if (text !== null) el.textContent = text;
             });
         }
 

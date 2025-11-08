@@ -45,7 +45,7 @@
                             </div>
                             <div
                                 class="flex items-center justify-center p-4 md:p-8 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
-                                <img src="{{ asset('img/group.png') }}" alt="Groups"
+                                <img src="{{ asset('img/group.webp') }}" alt="Groups"
                                     class="w-full max-w-xs rounded-2xl shadow-lg">
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                         <div class="grid md:grid-cols-2 gap-0 items-center">
                             <div
                                 class="flex items-center justify-center p-4 md:p-8 bg-gradient-to-br from-cyan-50 to-blue-100 dark:from-cyan-900/20 dark:to-blue-800/20">
-                                <img src="{{ asset('img/hero2.png') }}" alt="My Balance"
+                                <img src="{{ asset('img/hero2.webp') }}" alt="My Balance"
                                     class="w-full max-w-xs rounded-2xl shadow-lg">
                             </div>
                             <div class="p-8 md:p-12">
@@ -113,7 +113,7 @@
                             </div>
                             <div
                                 class="flex items-center justify-center p-4 md:p-8 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
-                                <img src="{{ asset('img/scan.png') }}" alt="Scanned Check"
+                                <img src="{{ asset('img/scan.webp') }}" alt="Scanned Check"
                                     class="w-full max-w-xs rounded-2xl shadow-lg">
                             </div>
                         </div>
@@ -124,7 +124,7 @@
                         <div class="grid md:grid-cols-2 gap-0 items-center">
                             <div
                                 class="flex items-center justify-center p-4 md:p-8 bg-gradient-to-br from-slate-900 to-slate-800 dark:from-slate-900 dark:to-slate-950">
-                                <img src="{{ asset('img/scan2.png') }}" alt="QR Code Scanning"
+                                <img src="{{ asset('img/scan2.webp') }}" alt="QR Code Scanning"
                                     class="w-full max-w-xs rounded-2xl shadow-lg">
                             </div>
                             <div class="p-8 md:p-12">

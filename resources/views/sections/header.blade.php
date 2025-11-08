@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HisobMate | Header</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
+    @vite('resources/css/app.css')
     <style>
         .gradient-text {
             background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
@@ -84,7 +84,7 @@
             <!-- Left: Logo -->
             <div class="flex items-center gap-3 -ml-6">
                 <!-- Logo Image -->
-                <img src="{{ asset('logo.png') }}" alt="HisobMate Logo" class="w-16 h-16">
+                <img src="{{ asset('logo.webp') }}" alt="HisobMate Logo" class="w-16 h-16">
 
                 <!-- Logo Text -->
                 <span class="logo-text gradient-text hidden md:inline">HisobMate</span>
@@ -117,8 +117,7 @@
                 <div class="w-px h-6 bg-gradient-to-b from-transparent via-gray-300 dark:via-gray-700 to-transparent">
                 </div>
 
-                <button onclick="openModal()" 
-                    id="join-header"
+                <button onclick="openModal()" id="join-header"
                     class="gradient-btn text-white px-6 py-2.5 rounded-full btn-modern text-sm font-semibold hover:shadow-lg transition-shadow">
                     <i class="fas fa-arrow-right mr-2"></i>
                     <span data-en="Join Now" data-uz="Qo'shilish" data-ru="Присоединиться"></span>

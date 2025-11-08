@@ -121,7 +121,7 @@
     }
 </style>
 
-<script>
+<script defer>
     // Scroll to video section
     function scrollToVideo() {
         const demoSection = document.getElementById('demoSection');
