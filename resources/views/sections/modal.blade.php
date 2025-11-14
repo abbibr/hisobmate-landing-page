@@ -25,14 +25,14 @@
                 <label class="block font-semibold mb-2">
                     <span data-en="Phone Number" data-uz="Telefon raqami" data-ru="Номер телефона"></span>
                 </label>
-                <input type="tel" name="phone" placeholder="+998 99 123 45 67" required class="input-modern w-full">
+                <input type="tel" name="phone" placeholder="+998 99 123 45 67" class="input-modern w-full">
             </div>
 
             <div>
                 <label class="block font-semibold mb-2">
                     <span data-en="Email Address" data-uz="Email Manzili" data-ru="Адрес электронной почты"></span>
                 </label>
-                <input type="email" name="email" placeholder="your@email.com" required class="input-modern w-full">
+                <input type="email" name="email" placeholder="your@email.com" class="input-modern w-full">
             </div>
 
             <div>
@@ -42,7 +42,7 @@
                 </label>
                 <div class="flex">
                     <span class="input-modern flex items-center bg-gray-50 dark:bg-gray-800">@</span>
-                    <input type="text" name="username" placeholder="username" required class="input-modern flex-1">
+                    <input type="text" name="username" placeholder="username" class="input-modern flex-1">
                 </div>
             </div>
 

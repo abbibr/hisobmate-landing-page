@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HisobMate | Header</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    @vite('resources/css/app.css')
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .gradient-text {
             background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
@@ -82,9 +82,9 @@
         class="sticky top-0 z-40 backdrop-blur-md bg-gray-50/80 dark:bg-slate-950/80 border-b border-gray-200 dark:border-gray-800">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <!-- Left: Logo -->
-            <div class="flex items-center gap-3 -ml-6">
+            <div class="flex items-center gap-3 -ml-4 md:-ml-6">
                 <!-- Logo Image -->
-                <img src="{{ asset('logo.webp') }}" alt="HisobMate Logo" class="w-16 h-16">
+                <img src="{{ asset('logo3d.webp') }}" alt="HisobMate Logo" class="w-16 h-16 cursor-pointer">
 
                 <!-- Logo Text -->
                 <span class="logo-text gradient-text hidden md:inline">HisobMate</span>

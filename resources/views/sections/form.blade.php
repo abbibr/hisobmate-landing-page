@@ -50,7 +50,7 @@
                         <label class="block font-semibold mb-3 text-gray-900 dark:text-white">
                             <span data-en="Phone Number" data-uz="Telefon raqami" data-ru="Номер телефона"></span>
                         </label>
-                        <input type="tel" name="phone" placeholder="+998 99 123 45 67" required
+                        <input type="tel" name="phone" placeholder="+998 99 123 45 67" 
                             class="input-modern w-full text-gray-900 dark:text-white dark:bg-slate-700 dark:border-slate-600">
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                             <span data-en="Email Address" data-uz="Email Manzili"
                                 data-ru="Адрес электронной почты"></span>
                         </label>
-                        <input type="email" name="email" placeholder="your@email.com" required
+                        <input type="email" name="email" placeholder="your@email.com"
                             class="input-modern w-full text-gray-900 dark:text-white dark:bg-slate-700 dark:border-slate-600">
                     </div>
 
@@ -74,7 +74,7 @@
                                 data-ru="Имя пользователя Telegram"></span>
                         </label>
                         <div class="flex">
-                            <input type="text" name="username" placeholder="username" required
+                            <input type="text" name="username" placeholder="username"
                                 class="input-modern flex-1 rounded-l-none text-gray-900 dark:text-white dark:bg-slate-700 dark:border-slate-600">
                         </div>
                     </div>

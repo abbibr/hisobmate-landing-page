@@ -14,18 +14,28 @@ class UserController extends Controller
         try {
             $validated = $request->validate([
                 'fullname' => 'required|string|max:255',
-                'email' => 'required|email|unique:users,email',
-                'phone' => 'required|string|unique:users,phone',
-                'username' => 'required|string|unique:users,username',
+                'email' => 'nullable|email|unique:users,email',
+                'phone' => 'nullable|string|unique:users,phone',
+                'username' => 'nullable|string|unique:users,username',
                 'code' => 'nullable',
             ]);
 
+            if (empty($validated['email']) && empty($validated['phone']) && empty($validated['username'])) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Validation failed',
+                    'errors' => [
+                        'contact' => ['At least one contact method (email, phone, or username) must be provided.']
+                    ]
+                ], 422);
+            }
+
             User::create([
                 'fullname' => $validated['fullname'],
-                'email' => $validated['email'],
-                'phone' => $validated['phone'],
-                'username' => $validated['username'],
-                'code' => $validated['code']
+                'email' => $validated['email'] ?? null,
+                'phone' => $validated['phone'] ?? null,
+                'username' => $validated['username'] ?? null,
+                'code' => $validated['code'] ?? null
             ]);
 
             return response()->json([
