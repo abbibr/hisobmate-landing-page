@@ -58,9 +58,9 @@
         </div>
 
         <p class="text-lg md:text-xl font-bold text-blue-600 dark:text-blue-400">
-            <span data-en="There's a better way. And 101 people already know it."
-                data-uz="Buning yaxshiroq yo‘li bor. Va 101 kishi buni allaqachon biladi."
-                data-ru="Есть лучший способ. И 101 человек уже знает это.">
+            <span data-en="There's a better way. And 301 people already know it."
+                data-uz="Buning yaxshiroq yo‘li bor. Va 301 kishi buni allaqachon biladi."
+                data-ru="Есть лучший способ. И 301 человек уже знает это.">
             </span>
             <i class="fas fa-arrow-down ml-2"></i>
         </p>

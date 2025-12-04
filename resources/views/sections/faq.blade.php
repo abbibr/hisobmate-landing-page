@@ -8,85 +8,84 @@
     <title>HisobMate | FAQ</title>
 
     @verbatim
-        <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Что такое HisobMate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "HisobMate — это приложение FinTech, которое помогает вам делить счета, отслеживать групповые расходы и управлять общими долгами с друзьями, семьей или коллегами — быстро и без стресса. Разработано в Узбекистане, предназначено для повседневного использования в Центральной Азии."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Как работает HisobMate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Просто создайте группу, добавьте участников и запишите общие расходы. HisobMate автоматически рассчитает, кто кому должен, и вежливо напомнит всем — так что больше неловких разговоров о деньгах."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Бесплатно ли использовать HisobMate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Да! HisobMate полностью бесплатен. Все функции для управления совместными расходами, разделения счетов и отслеживания групповых долгов доступны бесплатно."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Когда приложение запустится?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "HisobMate запустится 15 Января 2026 года. Присоединяйтесь к нашему списку ожидания сегодня, чтобы получить ранний доступ и эксклюзивные обновления запуска."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Как мне присоединиться к списку ожидания?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Просто введите свой адрес электронной почты, номер телефона, тг username на этой странице и нажмите кнопку «Присоединиться к списку ожидания». Вы получите обновления для ранних пользователей прямо в свой почтовый ящик."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Какие страны будет поддерживать HisobMate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Мы начинаем в Узбекистане и планируем расширить работу на Казахстан, Киргизию и Таджикистан вскоре после запуска."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Кто создает HisobMate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "HisobMate разработан командой, стоящей за Rotation, надежной платформой CareerTech и HRTech в Узбекистане. Наша миссия — упростить жизнь с помощью умных, локализованных цифровых инструментов."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Безопасны ли мои данные в HisobMate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Абсолютно. Мы следуем строгим стандартам безопасности данных и никогда не делимся вашей информацией без согласия. Ваша конфиденциальность и финансовая безопасность — наши главные приоритеты."
-      }
-    }
-  ]
-}
-</script>
+            <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Что такое HisobMate?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "HisobMate — это приложение FinTech, которое помогает вам делить счета, отслеживать групповые расходы и управлять общими долгами с друзьями, семьей или коллегами — быстро и без стресса. Разработано в Узбекистане, предназначено для повседневного использования в Центральной Азии."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Как работает HisobMate?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Просто создайте группу, добавьте участников и запишите общие расходы. HisobMate автоматически рассчитает, кто кому должен, и вежливо напомнит всем — так что больше неловких разговоров о деньгах."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Бесплатно ли использовать HisobMate?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Да! HisobMate полностью бесплатен. Все функции для управления совместными расходами, разделения счетов и отслеживания групповых долгов доступны бесплатно."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Когда приложение запустится?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "HisobMate запустится 15 Января 2026 года. Присоединяйтесь к нашему списку ожидания сегодня, чтобы получить ранний доступ и эксклюзивные обновления запуска."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Как мне присоединиться к списку ожидания?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Просто введите свой адрес электронной почты, номер телефона, тг username на этой странице и нажмите кнопку «Присоединиться к списку ожидания». Вы получите обновления для ранних пользователей прямо в свой почтовый ящик."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Какие страны будет поддерживать HisobMate?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Мы начинаем в Узбекистане и планируем расширить работу на Казахстан, Киргизию и Таджикистан вскоре после запуска."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Кто создает HisobMate?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "HisobMate разработан командой, стоящей за Rotation, надежной платформой CareerTech и HRTech в Узбекистане. Наша миссия — упростить жизнь с помощью умных, локализованных цифровых инструментов."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Безопасны ли мои данные в HisobMate?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Абсолютно. Мы следуем строгим стандартам безопасности данных и никогда не делимся вашей информацией без согласия. Ваша конфиденциальность и финансовая безопасность — наши главные приоритеты."
+              }
+            }
+          ]
+        }
+        </script>
     @endverbatim
 </head>
 
 <body>
     <!-- FAQ Section -->
-    <section id="faq"
-        class="py-20 px-4 bg-gradient-to-b from-white to-gray-50 dark:from-slate-950 dark:to-slate-900">
+    <section id="faq" class="py-20 px-4 bg-gradient-to-b from-white to-gray-50 dark:from-slate-950 dark:to-slate-900">
         <div class="max-w-4xl mx-auto">
             <!-- Section Header -->
             <div class="text-center mb-16">
@@ -188,11 +187,13 @@
                         <div
                             class="px-6 py-4 border-t border-gray-100 dark:border-gray-700 text-gray-600 dark:text-gray-400 leading-relaxed">
                             <span
-                                data-en="HisobMate is launching in 15th January 2026. Join our waitlist today to get early access and exclusive launch updates."
-                                data-uz="HisobMate 2026 yil 15-yanvarida ishga tushadi. Bugun kutish ro'yxatiga qo'shilishning erta kirishni oling va eksklyuziv ishga tushirish yangilanishlarini oling."
-                                data-ru="HisobMate запустится в 15 Января 2026 года. Присоединяйтесь к нашему списку ожидания сегодня, чтобы получить ранний доступ и эксклюзивные обновления запуска."></span>
+                                data-en="HisobMate begins Beta Testing on January 15, 2026. Early Access will open on February 1. Join our waitlist today to secure your spot and receive exclusive updates."
+                                data-uz="HisobMate beta sinovi 2026 yil 15-yanvarda boshlanadi. Erta kirish esa 1-fevralda ochiladi. Bugun kutish ro‘yxatiga qo‘shilib, o‘z o‘rningizni band qiling va eksklyuziv yangilanishlarga ega bo‘ling."
+                                data-ru="Бета-тестирование HisobMate начнется 15 января 2026 года. Ранний доступ откроется 1 февраля. Присоединяйтесь к списку ожидания уже сегодня, чтобы закрепить своё место и получать эксклюзивные обновления.">
+                            </span>
                         </div>
                     </div>
+
                 </div>
 
                 <!-- FAQ Item 5 -->

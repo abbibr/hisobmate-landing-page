@@ -38,11 +38,14 @@
                         class="inline-block bg-gradient-to-r from-blue-100 to-cyan-100 dark:from-blue-900/30 dark:to-cyan-900/30 px-4 py-2 rounded-full border border-blue-200 dark:border-blue-700 text-center w-full">
                         <p class="text-xs font-bold text-blue-700 dark:text-blue-400">
                             <i class="fas fa-calendar-alt mr-2"></i>
-                            <span data-en="Launching January 15, 2026"
-                                data-uz="2026 yil 15 yanvarida ishga tushadi"
-                                data-ru="Запуск 15 января 2026 года"></span>
+                            <span data-en="Beta Testing Starts January 15, 2026"
+                                data-uz="Beta sinovi 2026 yil 15 yanvarda boshlanadi"
+                                data-ru="Бета-тестирование начинается 15 января 2026 года">
+                                Beta Testing Starts January 15, 2026
+                            </span>
                         </p>
                     </div>
+
                 </div>
 
                 <!-- Benefits Section -->

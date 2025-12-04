@@ -15,8 +15,8 @@
                 <div
                     class="bg-gradient-to-r from-orange-400 to-red-500 text-white px-6 py-3 rounded-full font-black text-lg animate-bounce">
                     <i class="fas fa-exclamation-circle mr-2"></i>
-                    <span data-en="Only 899 Spots Left!" data-uz="Faqat 899 Joylar Qoldi!"
-                        data-ru="Осталось только 899 мест!"></span>
+                    <span data-en="Only 699 Spots Left!" data-uz="Faqat 699 Joylar Qoldi!"
+                        data-ru="Осталось только 699 мест!"></span>
                 </div>
             </div>
 
@@ -35,9 +35,9 @@
 
             <p class="text-base mb-8 text-orange-600 dark:text-orange-400 font-semibold">
                 <i class="fas fa-calendar-times mr-2"></i>
-                <span data-en="Be one of first 1000 — Join before January 15"
-                    data-uz="Birinchi 1000 dan biri bo'ling — 15-yanvardan oldin qo'shiling"
-                    data-ru="Будьте одним из первых 1000 — Присоединитесь до 15 января"></span>
+                <span data-en="Be one of first 1000 — Join before February 1"
+                    data-uz="Birinchi 1000 dan biri bo'ling — 1-fevraldan oldin qo‘shiling"
+                    data-ru="Будьте одним из первых 1000 — Присоединитесь до 1 февраля"></span>
             </p>
 
             <button onclick="openModal()"

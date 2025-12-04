@@ -124,10 +124,11 @@
                         </p>
                     </div>
                     <div>
-                        <div class="text-3xl font-black gradient-text">Jan 2026</div>
+                        <div class="text-3xl font-black gradient-text">Feb 2026</div>
                         <p class="text-sm text-gray-600 dark:text-gray-400">
-                            <span data-en="Launch Date" data-uz="Ishga tushish sanasi" data-ru="Дата запуска">Launch
-                                Date</span>
+                            <span data-en="Early Access" data-uz="Erta Kirish" data-ru="Ранний доступ">
+                                Early Access
+                            </span>
                         </p>
                     </div>
                 </div>
