@@ -10,3 +10,6 @@ Route::get('/', function () {
 Route::post('/store/waitlist', [UserController::class, 'store'])
     ->name('user.store.waitlist')
     ->middleware('api');
+
+
+Route::view('/privacy-policy', 'privacy');
